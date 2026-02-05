@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bonjour et bienvenue sur mon premier Portfolio!"/>
+  <title>Mathieu Beriac – Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CXbGGaIb.css">
+</head>
+
+<body class="relative overflow-x-hidden">
+  <!-- Animated Background -->
+  <div class="area">
+    <ul class="circles">
+      <li class="circle circle1"></li>
+      <li class="circle circle2"></li>
+      <li class="circle circle3"></li>
+      <li class="circle circle4"></li>
+      <li class="circle circle5"></li>
+      <li class="circle circle6"></li>
+      <li class="circle circle7"></li>
+      <li class="circle circle8"></li>
+      <li class="circle circle9"></li>
+      <li class="circle circle10"></li>
+    </ul>
+  </div>
+
+  <main class="max-w-7xl mx-auto px-4 relative z-10">
+
+    <!-- HEADER -->
+    <header class="flex flex-col gap-1 py-3 md:flex-row md:items-center md:justify-between">
+      <div>
+        <p class="font-medium text-white text-lg">Beriac Mathieu</p>
+        <p class="text-sm text-white/80">Computer science student</p>
+      </div>
+
+      <nav>
+        <ul class="flex gap-6 text-sm">
+          <li><a href="#about" class="text-white text-lg hover:text-purple-300 transition">About</a></li>
+          <li><a href="#skills" class="text-white text-lg hover:text-purple-300 transition">Skills</a></li>
+          <li><a href="#projects" class="text-white text-lg hover:text-purple-300 transition">Projects</a></li>
+          <li><a href="#contact" class="text-white text-lg hover:text-purple-300 transition">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent my-4"></div>
+
+    <!-- HERO -->
+    <section id="about" class="flex flex-col gap-10 py-12 md:flex-row md:items-center md:justify-between">
+      <h1 class="text-4xl font-bold leading-tight text-white glow-text md:text-6xl md:max-w-xl">
+        Hey, I'm Mathieu,<br />
+        <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          computer science student !
+        </span>
+      </h1>
+
+      <div class="flex justify-center md:justify-end">
+        <div class="w-48 h-48 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 p-1 
+                    md:w-64 md:h-64 overflow-hidden hover:scale-105 transition-transform duration-300">
+          <div class="w-full h-full rounded-full overflow-hidden bg-gray-900">
+            <img src="/assets/B2-INFO-20-CHeLAaYY.webp" alt="Profile picture" loading="lazy"
+                 class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS + PROJECTS -->
+    <section id="skills" class="skills-section text-white rounded-3xl p-8 md:p-12 mb-16">
+
+      <h2 class="text-center text-3xl font-bold mb-8 glow-text">
+        <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          Skills
+        </span>
+      </h2>
+
+      <div class="flex flex-wrap justify-center gap-3 mb-16">
+        <span class="skill-badge bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          JavaScript
+        </span>
+        <span class="skill-badge bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          HTML
+        </span>
+        <span class="skill-badge bg-gradient-to-r from-blue-400 to-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          CSS
+        </span>
+        <span class="skill-badge bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          SQLite
+        </span>
+        <span class="skill-badge bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          Go
+        </span>
+        <span class="skill-badge bg-gradient-to-r from-red-500 to-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          Java
+        </span>
+        <span class="skill-badge bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          Docker
+        </span>
+        <span class="skill-badge bg-gradient-to-r from-blue-400 to-cyan-500 text-white px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
+          Flutter
+        </span>
+      </div>
+
+      <h2 id="projects" class="text-center text-3xl font-bold mb-4 glow-text">
+        <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          Projects
+        </span>
+      </h2>
+
+      <p class="max-w-2xl mx-auto text-center text-gray-300 mb-12 text-lg">
+        I was able to work on various projects during my training and with different types of technology.
+      </p>
+
+      <div class="grid grid-cols-2 gap-6 md:grid-cols-4 project-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="space-y-3">
+          <button
+            onclick="document.getElementById('dialog-forum').showModal()"
+            class="project-card w-full overflow-hidden rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+            <div class="aspect-video relative overflow-hidden bg-gradient-to-br from-purple-900/20 to-pink-900/20">
+              <img
+                src="/assets/OG-Forum-logo-CbXzmKpz.webp"
+                alt="OG-Forum logo"
+                loading="lazy"
+                class="absolute inset-0 w-full h-full object-cover max-w-[70%] mx-auto"
+              />
+            </div>
+          </button>
+          
+          <p class="text-xl text-white text-center font-semibold project-title">OG-Forum</p>
+
+          <dialog id="dialog-forum">
+            <div class="p-8">
+              <h3>OG-Forum</h3>
+              <p>
+                Complete forum application with secure authentication system, 
+                real-time post and comment management. Developed with Go and SQLite.
+              </p>
+              <div class="flex justify-end gap-3 mt-6">
+                <button onclick="document.getElementById('dialog-forum').close()">
+                  Close
+                </button>
+              </div>
+            </div>
+          </dialog>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="space-y-3">
+          <button 
+            onclick="document.getElementById('dialog-cooked').showModal()"
+            class="project-card w-full overflow-hidden rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+            <div class="aspect-video overflow-hidden bg-gradient-to-br from-purple-900/20 to-pink-900/20">
+              <img
+                src="/assets/AmICooked-logo-roeOu2H0.webp" 
+                loading="lazy"
+                alt="AmICooked? logo" 
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </button>
+          
+          <p class="text-xl text-white text-center font-semibold project-title">AmICooked?</p>
+
+          <dialog id="dialog-cooked">
+            <div class="p-8">
+              <h3>AmICooked?</h3>
+              <p>
+                A mobile application built in Flutter/Dart that allows users to find recipes 
+                with gamification to gain experience based on the meals they make.
+              </p>
+              <div class="flex justify-end gap-3 mt-6">
+                <button onclick="document.getElementById('dialog-cooked').close()">
+                  Close
+                </button>
+              </div>
+            </div>
+          </dialog>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="space-y-3">
+          <button 
+            onclick="document.getElementById('dialog-groupie').showModal()"
+            class="project-card w-full overflow-hidden rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+            <div class="aspect-video overflow-hidden bg-gradient-to-br from-purple-900/20 to-pink-900/20">
+              <img
+                src="/assets/Honzzer_LOGO-CrYx3qoe.webp" 
+                loading="lazy"
+                alt="Honzzer logo"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </button>
+          
+          <p class="text-xl text-white text-center font-semibold project-title">Groupie Tracker</p>
+
+          <dialog id="dialog-groupie">
+            <div class="p-8">
+              <h3>Groupie Tracker</h3>
+              <p>
+                Dynamic web application for tracking musical artists and their world tours. 
+                Integration of external APIs and visualisation of geographical data.
+              </p>
+              <div class="flex justify-end gap-3 mt-6">
+                <button onclick="document.getElementById('dialog-groupie').close()">
+                  Close
+                </button>
+              </div>
+            </div>
+          </dialog>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="space-y-3">
+          <button 
+            onclick="document.getElementById('dialog-dreams').showModal()"
+            class="project-card w-full overflow-hidden rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+            <div class="aspect-video overflow-hidden bg-gradient-to-br from-purple-900/20 to-pink-900/20">
+              <img
+                src="/assets/sweet_dreams_logo-CdxWg1R_.webp" 
+                loading="lazy"
+                alt="Sweet Dreams App preview"
+                class="w-full h-full object-contain p-4"
+              />
+            </div>
+          </button>
+          
+          <p class="text-xl text-white text-center font-semibold project-title">Sweet Dreams</p>
+
+          <dialog id="dialog-dreams">
+            <div class="p-8">
+              <h3>Sweet Dreams</h3>
+              <p>
+                Sweet Dreams is a puzzle game made in JavaScript for web use.
+                 The player must navigate a character through a series of increasingly complex levels, 
+                 using logic and problem-solving skills to overcome obstacles and reach the goal.
+              </p>
+              <div class="flex justify-end gap-3 mt-6">
+                <button onclick="document.getElementById('dialog-dreams').close()">
+                  Close
+                </button>
+              </div>
+            </div>
+          </dialog>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-16">
+
+      <h2 class="text-center text-3xl font-bold mb-8 text-white glow-text">
+        <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          Contact
+        </span>
+      </h2>
+        <h3 class="justify-center text-center font-bold leading-tight text-white glow-text md:text-lg">
+           Please do not hesitate to contact me with any questions or opportunities for collaboration!
+        </h3>
+        <br />
+</form>
+      <form action="https://formsubmit.co/b3b7f899143af6cb73252617905bc304" method="POST" class="max-w-xl mx-auto bg-white/10 backdrop-blur-lg p-8 rounded-2xl shadow-2xl border border-white/20">
+        <div class="grid gap-5">
+          <input 
+            class="border border-white/30 bg-white/5 text-white placeholder-white/50 p-3 rounded-lg 
+                   focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
+            aria-label="Nom"
+            placeholder="Nom"
+            type="text" name="Nom" required
+          />
+          <input 
+            class="border border-white/30 bg-white/5 text-white placeholder-white/50 p-3 rounded-lg 
+                   focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition" 
+            aria-label="Prénom"
+            placeholder="Prénom"
+            type="text" name="Prénom" required
+          />
+          <input 
+            type="email"
+            class="border border-white/30 bg-white/5 text-white placeholder-white/50 p-3 rounded-lg 
+                   focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition" 
+            aria-label="Email"
+            placeholder="Email"
+            type="email" name="Email" required 
+          />
+          <textarea 
+            class="border border-white/30 bg-white/5 text-white placeholder-white/50 p-3 rounded-lg 
+                   focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition 
+                   min-h-[120px]" 
+            placeholder="Message"
+          ></textarea>
+          <button type="submit"
+            class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 
+                   text-white font-semibold py-3 rounded-lg transition-all hover:scale-105 hover:shadow-lg">
+            Envoyer
+          </button>
+        </div>
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer class="text-center py-8 text-sm text-white/70 border-t border-white/10">
+    <p>&copy; 2026 Mathieu Beriac. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Prevent scroll jump when opening dialogs
+    document.querySelectorAll('button[onclick*="showModal"]').forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const dialogId = button.getAttribute('onclick').match(/getElementById\('([^']+)'\)/)[1];
+        const dialog = document.getElementById(dialogId);
+        if (dialog) {
+          dialog.showModal();
+        }
+      });
+    });
+
+    // Also handle close buttons
+    document.querySelectorAll('dialog button').forEach(button => {
+      button.addEventListener('click', (e) => {
+        const dialog = e.target.closest('dialog');
+        if (dialog) {
+          e.preventDefault();
+          dialog.close();
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
